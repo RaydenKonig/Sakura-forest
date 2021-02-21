@@ -12,4 +12,4 @@ what i did accommodate them in a sakura biome
 
 
 
-I would like if you could tell me when you use this biome and give me your server :)
+I would like if you could tell me when you use this biome and pass me the ip of your server :3
