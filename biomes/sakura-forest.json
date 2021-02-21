@@ -1,0 +1,433 @@
+{
+	"name": "Sakura Forest",
+	"derivative": "FOREST",
+	"layers": [{
+			"style": {
+				"style": "STATIC"
+			},
+			"zoom": 0.656,
+			"palette": [{
+					"weight": 19,
+					"block": "grass_block"
+				},
+				{
+					"weight": 2,
+					"block": "gravel"
+				},
+				{
+					"weight": 19,
+					"block": "grass_block"
+				}
+			]
+		},
+		{
+			"palette": [{
+				"block": "dirt"
+			}]
+		},
+		{
+			"minHeight": 6,
+			"maxHeight": 18,
+			"style": {
+				"style": "STATIC"
+			},
+			"palette": [{
+					"block": "stone"
+				},
+				{
+					"block": "andesite"
+				},
+				{
+					"block": "stone"
+				}
+			]
+		}
+	],
+	"decorators": [{
+			"chance": 0.0015,
+			"stackMax": 6,
+			"palette": [{
+				"block": "sugar_cane"
+			}],
+			"stackMin": 1
+		},
+		{
+			"chance": 0.003,
+			"variance": {
+				"style": "STATIC"
+			},
+			"palette": [{
+					"data": {
+						"face": "floor",
+						"powered": false,
+						"facing": "east"
+					},
+					"block": "stone_button"
+				},
+				{
+					"data": {
+						"face": "floor",
+						"powered": false,
+						"facing": "south"
+					},
+					"block": "stone_button"
+				}
+			]
+		},
+		{
+			"chance": 0.0009,
+			"stackMax": 6,
+			"palette": [{
+				"block": "sunflower"
+			}],
+			"stackMin": 3
+		},
+		{
+			"stackMin": 1,
+			"stackMax": 11,
+			"chance": 0.0025,
+			"variance": {
+				"style": "STATIC",
+				"zoom": 0.1
+			},
+			"topPalette": [{
+				"data": {
+					"stage": 0,
+					"age": 0,
+					"leaves": "small"
+				},
+				"block": "bamboo"
+			}],
+			"palette": [{
+					"data": {
+						"stage": 0,
+						"age": 0,
+						"leaves": "none"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 1,
+						"age": 0,
+						"leaves": "none"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 0,
+						"age": 1,
+						"leaves": "none"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 1,
+						"age": 1,
+						"leaves": "none"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 0,
+						"age": 0,
+						"leaves": "small"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 1,
+						"age": 0,
+						"leaves": "small"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 0,
+						"age": 1,
+						"leaves": "small"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 1,
+						"age": 1,
+						"leaves": "small"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 0,
+						"age": 0,
+						"leaves": "large"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 1,
+						"age": 0,
+						"leaves": "large"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 0,
+						"age": 1,
+						"leaves": "large"
+					},
+					"block": "bamboo"
+				},
+				{
+					"data": {
+						"stage": 1,
+						"age": 1,
+						"leaves": "large"
+					},
+					"block": "bamboo"
+				}
+			],
+			"style": {
+				"style": "STATIC"
+			}
+		},
+		{
+			"chance": 0.2,
+			"variance": {
+				"style": "STATIC"
+			},
+			"zoom": 0.2,
+			"palette": [{
+					"block": "dandelion"
+				},
+				{
+					"weight": 10,
+					"block": "grass"
+				},
+				{
+					"block": "pink_tulip"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "tall_grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"weight": 4,
+					"block": "peony"
+				},
+				{
+					"weight": 5,
+					"block": "lilac"
+				},
+				{
+					"block": "tall_grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "grass"
+				},
+				{
+					"block": "lily_of_the_valley"
+				}
+			]
+		}
+	],
+	"entityInitialSpawns": [{
+			"entity": "cow",
+			"maxSpawns": 2,
+			"minSpawns": 1,
+			"rarity": 7
+		},
+		{
+			"entity": "panditazorrito",
+			"maxSpawns": 2,
+			"minSpawns": 1,
+			"rarity": 40
+		},
+		{
+			"entity": "panda",
+			"maxSpawns": 4,
+			"minSpawns": 1,
+			"rarity": 6
+		},
+		{
+			"entity": "fox",
+			"maxSpawns": 3,
+			"minSpawns": 1,
+			"rarity": 5
+		}
+	],
+	"objects": [{
+			"chance": 0.5,
+			"rotation": {
+				"yAxis": {
+					"min": 0,
+					"max": 0,
+					"interval": 90,
+					"enabled": true
+				},
+				"enabled": true
+			},
+			"place": [
+				"clutter/stone-clutt-1",
+				"clutter/stone-clutt-2",
+				"clutter/stone-clutt-3",
+				"clutter/stone-clutt-4",
+				"clutter/stone-clutt-5",
+				"clutter/stone-clutt-6",
+				"clutter/stone-clutt-7",
+				"boulder/boulder1",
+				"boulder/boulder2",
+				"boulder/boulder4",
+				"boulder/boulder5",
+				"boulder/boulder6",
+				"boulder/boulder7",
+				"boulder/boulder8"
+			],
+			"translate": {
+				"x": 0,
+				"y": -2,
+				"z": 0
+			}
+		},
+		{
+			"mode": "PAINT",
+			"chance": 0.00995,
+			"rotation": {
+				"yAxis": {
+					"min": 0,
+					"max": 0,
+					"interval": 90,
+					"enabled": true
+				},
+				"enabled": true
+			},
+			"place": [
+				"camp/camp"
+			],
+			"translate": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		},
+		{
+			"chance": 0.4,
+			"rotation": {
+				"yAxis": {
+					"min": 0,
+					"max": 0,
+					"interval": 90,
+					"enabled": true
+				},
+				"enabled": true
+			},
+			"place": [
+				"sakura/sakura1",
+				"sakura/sakura2",
+				"sakura/sakura3",
+				"sakura/sakura4",
+				"sakura/sakura5"
+			],
+			"translate": {
+				"x": 0,
+				"y": -1,
+				"z": 0
+			}
+		},
+		{
+			"chance": 0.5,
+			"rotation": {
+				"yAxis": {
+					"min": 0,
+					"max": 0,
+					"interval": 0,
+					"enabled": true
+				},
+				"enabled": true
+			},
+			"mode": "PAINT",
+			"place": [
+				"pradera/arbusto1",
+				"pradera/arbusto2",
+				"pradera/arbusto3",
+				"pradera/arbusto4",
+				"pradera/arbusto5"
+			],
+			"translate": {
+				"x": 0,
+				"y": 1,
+				"z": 0
+			}
+		},
+		{
+			"chance": 0.002,
+			"density": 1,
+			"mode": "VACUUM",
+			"rotation": {
+				"yAxis": {
+					"min": 0,
+					"max": 0,
+					"interval": 90,
+					"enabled": true
+				},
+				"enabled": true
+			},
+			"place": [
+				"sakura/manantial"
+			],
+			"translate": {
+				"x": 0,
+				"y": -3,
+				"z": 0
+			}
+		}
+	],
+	"generators": [{
+		"generator": "mountain",
+		"max": 25,
+		"min": 4
+	}],
+	"slab": {
+		"palette": [{
+				"weight": 1,
+				"block": "cobblestone_slab"
+			},
+			{
+				"weight": 10,
+				"block": "air"
+			}
+		],
+		"style": {
+			"style": "STATIC"
+		}
+	},
+	"rarity": 50
+}
